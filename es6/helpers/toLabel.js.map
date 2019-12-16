@@ -1,0 +1,1 @@
+{"version":3,"file":"toLabel.js","sourceRoot":"","sources":["../../src/helpers/toLabel.ts"],"names":[],"mappings":"AAgBA,MAAM,UAAU,OAAO,CAAC,SAAiB;IACvC,OAAO,SAAS;SACb,OAAO,CAAC,IAAI,EAAE,GAAG,CAAC;SAClB,OAAO,CAAC,WAAW,EAAE,CAAC,MAAM,EAAE,KAAK,EAAE,EAAE,CAAC,IAAI,KAAK,CAAC,WAAW,EAAE,EAAE,CAAC,CAAC;AACxE,CAAC"}

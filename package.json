@@ -1,0 +1,43 @@
+{
+  "name": "@fnando/use-form",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "./es6/index.js",
+  "types": "./es6/index.d.ts",
+  "dependencies": {
+    "react": "*"
+  },
+  "scripts": {
+    "test": "jest --watch",
+    "test:ci": "jest",
+    "lint:eslint": "eslint 'src/**/*.{js,ts,tsx}'",
+    "lint:typescript": "tsc --noEmit",
+    "lint": "yarn lint:eslint && yarn lint:typescript",
+    "build": "yarn test:ci && yarn lint && rm -rf es6 && tsc && yarn docs",
+    "docs": "typedoc src"
+  },
+  "devDependencies": {
+    "@fnando/codestyle": "^0.0.9",
+    "@fnando/eslint-config-codestyle": "^0.0.5",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@types/jest": "^24.0.23",
+    "@types/react": "^16.9.16",
+    "@typescript-eslint/eslint-plugin": "^2.12.0",
+    "@typescript-eslint/parser": "^2.12.0",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "jest": "^24.9.0",
+    "jest-filename-transform": "^0.1.0",
+    "prettier": "^1.19.1",
+    "react-dom": "^16.12.0",
+    "ts-jest": "^24.2.0",
+    "typedoc": "^0.15.5",
+    "typescript": "^3.7.3"
+  }
+}
